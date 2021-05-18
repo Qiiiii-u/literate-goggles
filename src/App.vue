@@ -1,32 +1,34 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view></router-view>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+  export default {
+    name: 'app'
   }
-}
+</script>
+
+<style lang="scss">
+  html,
+  body,
+  #app{
+    height: 100%;
+    font-size: 14px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F4F4F4;
+  }
+
+  @import url("assets/css/base.css");
+
+  ::v-deep .el-loading-spinner .el-loading-text{
+  	color: #eea412 !important;
+  }
+
+  ::v-deep .el-loading-spinner i{
+  	color: #eea412 !important;
+  }
 </style>

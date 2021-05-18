@@ -1,0 +1,109 @@
+	::v-deep .el-progress {
+    display: inline-block !important;
+  }
+
+  ::v-deep .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  ::v-deep .avatar-uploader .el-upload:hover {
+    border-color: #409eff;
+  }
+
+  ::v-deep .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+
+  ::v-deep .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
+
+  .editor {
+      line-height: normal !important;
+    }
+
+  ::v-deep .ql-snow .ql-tooltip[data-mode=link]::before {
+    content: "请输入链接地址:"!important;
+  }
+
+  ::v-deep .ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+    border-right: 0px;
+    content: '保存'!important;
+    padding-right: 0px;
+  }
+
+  ::v-deep .ql-snow .ql-tooltip[data-mode=video]::before {
+    content: "请输入视频地址:"!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+    content: '普通'!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+    content: '标题1'!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+    content: '标题2'!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+    content: '标题3'!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+    content: '标题4'!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+    content: '标题5'!important;
+  }
+
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
+  ::v-deep .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+    content: '标题6'!important;
+  }
+
+  ::v-deep .ql-picker.ql-font .ql-picker-label[data-value=SimSun]::before,
+  ::v-deep .ql-picker.ql-font .ql-picker-item[data-value=SimSun]::before {
+    content: "宋体"!important;
+    font-family: "SimSun"!important;
+  }
+  ::v-deep .ql-picker.ql-font .ql-picker-label[data-value=SimHei]::before,
+  ::v-deep .ql-picker.ql-font .ql-picker-item[data-value=SimHei]::before {
+    content: "黑体"!important;
+    font-family: "SimHei"!important;
+  }
+  ::v-deep .ql-picker.ql-font .ql-picker-label[data-value=Microsoft-YaHei]::before,
+  ::v-deep .ql-picker.ql-font .ql-picker-item[data-value=Microsoft-YaHei]::before {
+    content: "微软雅黑"!important;
+    font-family: "Microsoft YaHei"!important;
+  }
+  ::v-deep .ql-picker.ql-font .ql-picker-label[data-value=KaiTi]::before,
+  ::v-deep .ql-picker.ql-font .ql-picker-item[data-value=KaiTi]::before {
+    content: "楷体"!important;
+    font-family: "KaiTi"!important;
+  }
+  ::v-deep .ql-picker.ql-font .ql-picker-label[data-value=FangSong]::before,
+  ::v-deep .ql-picker.ql-font .ql-picker-item[data-value=FangSong]::before {
+    content: "仿宋"!important;
+    font-family: "FangSong"!important;
+  }
